@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Parcial_Moviles</string>
+    <string name="app_name">Restaurants</string>
+    <string name="text_name_testing">Test restaurant name</string>
+    <string name="text_testing">Text test restaurant</string>
+    <string name="text_content_testing">Type of couisine test</string>
+    <string name="tittle_TextView">Restaurant</string>
+    <string name="Add_restaurant">Add new restaurant</string>
+    <string name="name_restaurant">Name of the restaurant</string>
+    <string name="tipococina_cocina">Type of couisine</string>
+    <string name="create_restaurant">Create restaurant</string>
 </resources>
