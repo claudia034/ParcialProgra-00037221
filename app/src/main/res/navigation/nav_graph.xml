@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listTVFragment2">
+    <fragment
+        android:id="@+id/newRestaurantFragment"
+        android:name="com.example.parcial_moviles.ui.rest.newRest.NewRestaurantFragment"
+        android:label="NewRestaurantFragment"
+        tools:layout="@layout/fragment_new_rest" />
+    <fragment
+        android:id="@+id/listTVFragment2"
+        android:name="com.example.parcial_moviles.ui.rest.listRestaurants.ListRestaurantFragment"
+        android:label="ListTVFragment"
+        tools:layout="@layout/fragment_list_rest">
+        <action
+            android:id="@+id/action_listTVFragment2_to_newRestaurantFragment"
+            app:destination="@id/newRestaurantFragment" />
+        <action
+            android:id="@+id/action_listTVFragment2_to_restFragment"
+            app:destination="@id/restFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restFragment"
+        android:name="com.example.parcial_moviles.ui.rest.viewmodel.RestFragment"
+        android:label="RestFragment"
+        tools:layout="@layout/fragment_view_rest"/>
+</navigation>

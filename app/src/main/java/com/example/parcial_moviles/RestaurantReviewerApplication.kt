@@ -1,4 +1,4 @@
-package com.example.parcial_moviles.ui.rest
+package com.example.parcial_moviles
 
 import android.app.Application
 import com.example.parcial_moviles.data.model.restaurant
